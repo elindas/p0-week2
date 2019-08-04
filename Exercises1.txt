@@ -1,0 +1,59 @@
+// TUGAS 1 
+SET 'm' with 600
+SET 'a' with 2
+SET 'F' with any value
+
+CALCULATE 'm' times 'a'
+SET 'F' value with CALCULATION RESULT
+DISPLAY 'F'
+
+// TUGAS 2
+1. Jika tahun habis dibagi 4, masuk tahap 2. Jika tida, masuk tahap 5.
+2. Jika tahun habis dibagi 100, masuk tahap 3. Jika tidak, masuk tahap 4.
+3. Jika tahun habis dibagi 400, masuk tahap 4. Jika tidak, masuk tahap 5.
+4. Ini adalah tahun kabisat.
+5. Ini bukan tahun kabisat.
+
+IF year modulo 4 is 0
+   IF  year modulo 100 is 0
+      IF year modulo 400 is 0
+        PRINT ‘it is leap year’
+      ELSE
+        PRINT ‘it is NOT leap year’
+      END
+   ELSE
+     PRINT ‘it is leap year’
+   END
+ELSE
+  PRINT ‘it is NOT leap year’
+END
+
+// TUGAS 3
+1. Masukkan satu pakaian ke mesin cuci
+2. Selama pakaian yang dimasukkan kurang dari 20, kembali ke tahap 1
+3. Mesin cuci dinyalakan
+
+SET laundry counter to 0
+DO 
+   Add counter with 1
+WHILE laundry counter is less than 20
+ENDWHILE 
+PRINT switch on the washing machine
+
+// TUGAS 4
+1. Ada 40 siswa
+2. Selama siswa yang diperiksa belum mencapai 40, masuk tahap 3. Jika tidak, masuk tahap 5
+3. Jika siswa memiliki kuku panjang, hukum siswa tersebut. Jika tidak, puji siswa tersebut.
+4. Periksa siswa selanjutnya, kembali ke tahap 2.
+5. Selesai.
+
+Set students to 40
+Set counter to 1
+While counter is less than or equal to 40 then
+	if student has long nails
+	   print punish the student
+	else
+	   print reward the student
+	endif	
+	Add 1 to  counter
+Endwhile
