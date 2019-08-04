@@ -17,15 +17,15 @@ DISPLAY 'F'
 IF year modulo 4 is 0
    IF  year modulo 100 is 0
       IF year modulo 400 is 0
-        PRINT ‘it is leap year’
+        PRINT â€˜it is leap yearâ€™
       ELSE
-        PRINT ‘it is NOT leap year’
+        PRINT â€˜it is NOT leap yearâ€™
       END
    ELSE
-     PRINT ‘it is leap year’
+     PRINT â€˜it is leap yearâ€™
    END
 ELSE
-  PRINT ‘it is NOT leap year’
+  PRINT â€˜it is NOT leap yearâ€™
 END
 
 // TUGAS 3
@@ -37,7 +37,7 @@ SET laundry counter to 0
 DO 
    Add counter with 1
 WHILE laundry counter is less than 20
-ENDWHILE 
+END 
 PRINT switch on the washing machine
 
 // TUGAS 4
