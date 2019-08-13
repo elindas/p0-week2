@@ -1,34 +1,44 @@
 
-var hari = 21; 
+var hari = 20; 
 var bulan = 4; 
 var tahun = 1945;
 
+switch (true) {
+    case (hari > 31):
+        hari = 'tanggal invalid';
+        break;
+    default:
+        hari;
+        break;
+}
 
 switch(bulan) {
   case 1:
-    console.log(hari + ' Januari ' + tahun); break;
+    bulan = ' Januari '; break;
   case 2:
-    console.log(hari + ' Februari ' + tahun); break;
+    bulan = ' Februari '; break;
   case 3:
-    console.log(hari + ' Maret ' +  tahun); break;
+    bulan = ' Maret '; break;
   case 4:
-    console.log(hari + ' April ' +  tahun); break;
+    bulan = ' April '; break;
   case 5:
-    console.log(hari + ' Mei ' + tahun); break;
+    bulan = ' Mei ' ; break;
   case 6:
-    console.log(hari + ' Juni ' +  tahun); break;
+    bulan = ' Juni '; break;
   case 7:
-    console.log(hari + ' Juli ' + tahun); break;
+    bulan = ' Juli '; break;
   case 8:
-    console.log(hari + ' Agustus ' +  tahun); break;
+    bulan = ' Agustus '; break;
   case 9:
-    console.log(hari + ' Sebtember ' + tahun); break;
+    bulan = ' September '; break;
   case 10:
-    console.log(hari + ' Oktober ' +  tahun); break;
+    bulan = ' Oktober '; break;
   case 11:
-    console.log(hari + ' November ' + tahun); break;
+    bulan = ' November '; break;
   case 12:
-    console.log(hari + ' Desember ' + tahun); break;
+    bulan = ' Desember '; break;
   default:
-    console.log(hari + ' tidak ada bulan ' + tahun); break;
+    bulan = ' bulan invalid '; break;
 } 
+
+console.log(hari + bulan + tahun);

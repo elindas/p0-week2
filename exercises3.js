@@ -4,6 +4,8 @@ var peran = 'Ksatria';
 
 if(peran === '' && nama === '') {
     console.log('nama harus diisi');
+  } else if(nama === '') {
+    console.log('nama harus diisi');
   } else if( peran === 'Tabib') {
     console.log('Selamat datang di Dunia Proxytia, ' + nama);
     console.log('Halo Tabib ' + nama + ', kamu akan membantu temanmu yang terluka.');

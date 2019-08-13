@@ -1,22 +1,20 @@
 
-
 function xo(str) {
-   var hasilX=0;
-   var iniO=0;
-   for(var i=0;i<str.length;i++){
-     if(str[i]==='X'){
-       hasilX+=1
-     }
-     else if(str[i]==='o'){
-       iniO+=1
-     }
-       if(hasilX===iniO){
-     return true
-   }
-   else{
-     return false
-   }
-   }
+  
+  var sumX = 0
+  var sumO = 0
+  for(var i=0; i< str.length; i++) {
+    if(str[i]=== 'x') {
+      sumX += 1
+    } else if(str[i]=== 'o') {
+      sumO += 1
+    }
+  }
+
+  if(sumX === sumO){
+    return true
+  } else
+    return false
 }
 
  // TEST CASES
