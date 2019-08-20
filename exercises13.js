@@ -13,8 +13,9 @@ function xo(str) {
 
   if(sumX === sumO){
     return true
-  } else
+  } else {
     return false
+  }
 }
 
  // TEST CASES
